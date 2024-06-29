@@ -1,107 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage to Bells</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educational School: BELLSTECH</title>
+    <!-- css reset -->
+    <!-- <link href="css/reset.css" rel="stylesheet" type="text/css" /> -->
+    <!-- insert any library css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- insert your own template files -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/bells_logo.jpg" class="img-fluid" id="logo"
+          />
+          <p>BELLSTECH</p>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans&display=swap" rel="stylesheet">
-    
-    <!-- our own style sheet -->
-    <!-- <link rel="stylesheet" href="css/main.css"> -->
-</head>
-<body>
- <header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>
+    <!-- carousel -->
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/sctp-series.jpg" class="d-block w-100" alt="sctp-series">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text"><mark>SkillsFuture Career Transition Programmes (SCTP)</mark><br></h5>
+              <q style="background: lawngreen;">SkillsFuture Career Transition Programme (SCTP) is a train-and-place programme to support mid-career individuals
+                <wbr>in acquiring industry-relevant skills to improve employability and
+                <wbr>pivot to new sectors or job roles.</q>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/cybersecurity.jpg" class="d-block w-100" alt="cyber-security">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text"><mark>(SCTP) Cyber-Security Professional</mark><br></h5>
+              <q style="background: lawngreen;">A cybersecurity professional is someone who specializes in protecting computer systems, networks, and data from unauthorized access, theft, or damage.</q>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/datascience.jpg" class="d-block w-100" alt="data-science">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text"><mark>(SCTP) Data-Science Specialist</mark><br></h5>
+              <q style="background: lawngreen;">A data science specialist is a professional who uses analytical, statistical, and programming skills to collect, analyze, and interpret large amounts of data.</q>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/fullstack.jpg" class="d-block w-100" alt="full-stack">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text"><mark>(SCTP) Full-Stack Developer</mark><br></h5>
+              <q style="background: lawngreen;">A full stack developer is a professional who is skilled in both front-end and back-end development of web applications.</q>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/blockchain.jpg" class="d-block w-100" alt="block-chain">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text"><mark>(SCTP) Blockchain Developer</mark><br></h5>
+              <q style="background: lawngreen;">A block chain developer is a professional who specializes in creating, developing, and managing blockchain technology.</q>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div id="spacer">
+      </div>
 
-    </h1>
- </header>
- <main>
-  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/bTVIMt3XllM?si=YAfpJdq2Oo65N88Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-  <iframe width="100" height="100" src="https://www.youtube.com/embed/bTVIMt3XllM?si=YAfpJdq2Oo65N88Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <article>
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <section>
+        <!-- main section-->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div style="display: inline; position: absolute; left: 0">
+                <span class="badge text-bg-secondary">Bells#1</span>
+              </div>
+              <img src="img/_today-coder_tomorrow.jpg" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-md-6">
+              <h1>#Bells Offerings for Tech Prospects</h1>
+              <h4>
+                Hi! Do you want to kick-start a tech adventure with our software development bootcamp?
+                Here's to new beginnings and tech innovations. Click the button <normal style="background-color: rgba(0,0,255,0.8); color: rgb(255,255,255);">Learn More</normal>
+                to find out more information on our upcoming SCTP intake and read more about the study experiences
+                of our past graduates!
+              </h4>
+              <p>
+                <ul>
+                  <li>
+                    Offers pathways to high-growth IT careers
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                  <li>
+                    Career coaches provide guidance throughout the SCTP journey
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <li>
+                    Conducts rigorous aptitude test for enrolment
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+              </p>
+              <button class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- course selection area -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h1>#Bells Course Information</h1>
+              <h4>
+                Hi! I would like to request for the course syllabus on the following SCTP Programme,
+                please send me the course information.
+              </h4>
+
+              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">(SCTP) Cyber-Security</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">(SCTP) Data-Science</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">(SCTP) Full-Stack</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio4">(SCTP) Block-Chain</label>
+              </div>
+
+              <!-- contact form area -->
+              <div class="row">
+                <div class="col-9">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                      <div id="emailHelp" class="form-text">
+                        We'll never share your email with anyone else.
+                      </div>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="exampleCheck1"
+                      />
+                      <label class="form-check-label" for="exampleCheck1">
+                        Please put me onto your mailing list.
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <!-- end of form portion -->
+            </div>
+            <div class="col-12 col-md-6">
+              <div style="display: inline; position: absolute; right: 0">
+                <span class="badge text-bg-secondary">Bells#2</span>
+              </div>
+              <img src="img/sctp-salary.jpg" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cards area -->
+      <section class="container mt-5 pt-5 mb-5 pb-5">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="img/cybersecurity.jpg"
+                class="card-img-top"
+                alt="(SCTP) Cyber-Security"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cyber-Security Professional</h5>
+                <p class="card-text">
+                  A <strong>cybersecurity professional</strong> is someone who specializes in protecting computer systems, networks, and data from unauthorized access, theft, or damage.
+                  <p>Their main responsibilities include:</p>
+                  <ol>
+                    <li>
+                      <strong>Preventing Cyber Attacks: </strong>Implementing measures to safeguard systems against potential threats.
+                    </li>
+                    <li>
+                      <strong>Detecting Security Breaches: </strong>Monitoring systems to identify any unauthorized access or suspicious activities.
+                    </li>
+                    <li>
+                      <strong>Responding to Security Incidents: </strong>Taking immediate action to mitigate the impact of security breaches and restore normal operations.
+                    </li>
+                    <li>
+                      <strong>Conducting Security Audits: </strong>Regularly reviewing and testing systems to ensure they meet security standards.
+                    </li>
+                    <li>
+                      <strong>Educating Users: </strong>Training employees and users on best practices for maintaining cybersecurity.
+                    </li>
+                  </ol>
+                  <p>Cybersecurity professionals can work in various roles, such as penetration testers, security engineers, incident responders, and security consultants. They play a crucial role in protecting sensitive information and maintaining the integrity of digital infrastructure.</p>
+                  <p>Are you interested in pursuing a career in cybersecurity, or are you looking for information about the course?</p>
+                </p>
+                <a href="https://bells.sg/courses/sctp-cybersecurity-professional/" class="btn btn-primary">Goto Bells' (SCTP) Cyber-Security Course Details</a>
               </div>
             </div>
-          </nav>
-        <h1 class="inter-400">
-            Hello Bells???
-        </h1>
-        <h1 class="inter-600">
-            Welcome to Bells!!!
-        </h1>
-        <h1 class="inter-700">
-            Intro Bells$$$
-        </h1>
-        <p>
-            The quick brown fox jumps over the lazy dog.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Dignissimos, sunt nesciunt! Saepe tempore blanditiis nam iste quibusdam ut odio, 
-            labore aspernatur similique temporibus eum aliquam sed cum animi, aut eveniet.
-        </p>
-        <img src="https://via.placeholder.com/150" alt="placeholder image"/>
-        <!-- <img src="img/pexels-evie-shaffer.jpg" alt="pexels"/> -->
-
-        <div class="card" style="width: 18rem;">
-            <img src="img/pexels-rajaalemnari.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="img/datascience.jpg"
+                class="card-img-top"
+                alt="(SCTP) Data-Science"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data-Science Specialist</h5>
+                <p class="card-text">
+                  A <strong>data science specialist</strong> is a professional who uses analytical, statistical, and programming skills to collect, analyze, and interpret large amounts of data. Their main goal is to extract valuable insights that can help organizations make informed decisions.
+                  <p>Here are some key responsibilities of a data science specialist:</p>
+                  <ol>
+                    <li>
+                      <strong>Data Collection and Cleaning: </strong>Gathering data from various sources and ensuring its quality and accuracy.
+                    </li>
+                    <li>
+                      <strong>Data Analysis: </strong>Using statistical methods and tools to analyze data and identify patterns or trends.
+                    </li>
+                    <li>
+                      <strong>Model Building: </strong>Developing predictive models and algorithms to forecast future trends or behaviors.
+                    </li>
+                    <li>
+                      <strong>Data Visualization: </strong>Creating visual representations of data to communicate findings effectively.
+                    </li>
+                    <li>
+                      <strong>Reporting: </strong>Presenting insights and recommendations to stakeholders to support decision-making processes.
+                    </li>
+                  </ol>
+                  <p>Data science specialists often work with tools and languages such as Python, R, SQL, and machine learning frameworks. They play a crucial role in fields like finance, healthcare, marketing, and technology, where data-driven decisions are essential.</p>
+                  <p>Are you interested in learning more about the skills needed to become a data science specialist, or perhaps you would like to find out more about the course?</p>
+                </p>
+                <a href="https://bells.sg/courses/sctp-data-science-professional/" class="btn btn-primary">Goto Bells' (SCTP) Data-Science Course Details</a>
+              </div>
             </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="img/fullstack.jpg"
+                class="card-img-top"
+                alt="(SCTP) Full-Stack"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Full-Stack Developer</h5>
+                <p class="card-text">
+                  A <strong>full-stack developer</strong> is a professional who is skilled in both front-end and back-end development of web applications. This means they can handle everything from designing the user interface to managing the server and database.
+                  <p>Here are some key aspects of a full-stack developer's role:</p>
+                  <ol>
+                    <li>
+                      <strong>Front-End Development: </strong>This involves creating the parts of a website or application that users interact with directly. Full-stack developers use technologies like HTML, CSS, and JavaScript to build responsive and visually appealing interfaces.
+                    </li>
+                    <li>
+                      <strong>Back-End Development: </strong>This involves managing the server, database, and application logic. Full-stack developers work with server-side languages like Python, Ruby, Java, and frameworks like Node.js to ensure the application runs smoothly and efficiently.
+                    </li>
+                    <li>
+                      <strong>Database Management: </strong>They design and manage databases using SQL or NoSQL databases like MySQL, PostgreSQL, MongoDB, etc., to store and retrieve data as needed.
+                    </li>
+                    <li>
+                      <strong>API Development: </strong>Full-stack developers create and integrate APIs (Application Programming Interfaces) to enable different parts of the application to communicate with each other and with external services.
+                    </li>
+                    <li>
+                      <strong>Version Control: </strong>They use tools like Git to manage and track changes in the codebase, ensuring collaboration and version management.
+                    </li>
+                    <li>
+                      <strong>Deployment and Hosting: </strong>Full-stack developers are also involved in deploying the application to a server and managing hosting environments.
+                    </li>
+                  </ol>
+                  <p>Full-stack developers are highly versatile and can work on various aspects of a project, making them valuable assets to any development team. They often collaborate with other developers, designers, and stakeholders to deliver comprehensive solutions.</p>
+                  <p>Are you interested in becoming a full-stack developer, or do you have questions about the course that you need help with?</p>
+                </p>
+                <a href="https://bells.sg/courses/sctp-full-stack-developer/" class="btn btn-primary">Goto Bells' (SCTP) Full-Stack Course Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="img/blockchain.jpg"
+                class="card-img-top"
+                alt="(SCTP) Block-Chain"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Blockchain Developer</h5>
+                <p class="card-text">
+                  A <strong>blockchain developer</strong> is a software developer who specializes in creating and managing blockchain technology.
+                  <p>Here are some key aspects of their role:</p>
+                  <ol>
+                    <li>
+                      <strong>Core Blockchain Development: </strong>This involves designing and maintaining the architecture of blockchain systems. Core blockchain developers work on creating protocols, developing security patterns, and ensuring the overall network's integrity.
+                    </li>
+                    <li>
+                      <strong>Blockchain Software Development: </strong>These developers build applications on top of existing blockchain platforms. They create decentralized applications (dApps) and smart contracts, which are self-executing contracts with the terms directly written into code.
+                    </li>
+                    <li>
+                      <strong>Cryptography: </strong>Blockchain developers use cryptographic techniques to secure data and transactions on the blockchain. This ensures that the data is immutable and tamper-proof.
+                    </li>
+                    <li>
+                      <strong>Consensus Mechanisms: </strong>They implement and manage consensus mechanisms, which are protocols that ensure all participants in the blockchain network agree on the state of the blockchain. Examples include Proof of Work (PoW) and Proof of Stake (PoS).
+                    </li>
+                    <li>
+                      <strong>Smart Contracts: </strong>These are programs stored on the blockchain that automatically execute actions when predefined conditions are met. Blockchain developers write and deploy these contracts to facilitate transactions and agreements without the need for intermediaries.
+                    </li>
+                  </ol>
+                  <p>Blockchain developers often work with programming languages like Solidity (for Ethereum), JavaScript, Python, and C++. They also need to be familiar with blockchain platforms such as Ethereum, Hyperledger, and Bitcoin.</p>
+                  <p>Are you interested in learning more about blockchain development, or do you need to know more about the course?</p>
+                </p>
+                <a href="https://bells.sg/courses/sctp-blockchain-developer/" class="btn btn-primary">Goto Bells' (SCTP) Block-Chain Course Details</a>
+              </div>
+            </div>
+          </div>
         </div>
-    </article>
- </main>  
- <footer>
-    <p>
-        &copy; 2024 Bells
-    </p>
- </footer>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+      </section>
+    </main>
+
+    <!-- insert javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

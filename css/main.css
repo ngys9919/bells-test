@@ -1,11 +1,13 @@
  /* <uniquifier>: Use a unique and descriptive class name */
  /* <weight>: Use a value from 100 to 900 */
 
-/* this asterisk selects all and applies all to html */
-*{
-    /* this 2 is the minimal requirement for google font */
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+.inter-200 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 .inter-400 {
@@ -17,20 +19,149 @@
     "slnt" 0;
 }
 
-.inter-600 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+.inter-700 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.css-box-model {
+  /* border-dimensions */
+  border-top: 15px;
+  border-right: 20px;
+  border-bottom: 10px;
+  border-left: 5px;
+  /* shorthands for border: top, right, bottom, left */
+  /* border: 15px, 20px, 10px, 5px; */
+  
+  /* margin-dimensions */
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  /* shorthands for margin: top, right, bottom, left */
+  /* margin: 20px, 15px, 5px, 10px; */
+  
+  /* padding-dimensions */
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  /* shorthands for padding: top, right, bottom, left */
+  /* padding: 10px, 5px, 15px, 20px; */
+}
+
+.box {
+  width: auto;
+  height: auto;
+  top:5vh;
+  left:5vw;
+  position: sticky;
+}
+
+.box-border {
+  /* border-color, border-width, border-style: these 3 are in group together */
+    border-color: red; 
+    border-width: 1px;
+    border-style: solid;
+}
+
+.parent {
+  /* flex container of size auto (height) x 100vw (width) */
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  /* flex-direction: row; */
+  background-color: white;
+  font-size: 1.25vw;
+}
+
+.child {
+  /* each flex item of 100px (width) */
+  background-color: white;
+  border: 1px solid black;
+  flex-basis: 100px;  
+}
+
+.child:hover {
+  background-color: red;
+  /* use flex-basis: 100px for flex-grow */
+  flex-grow: 2;
+  /* use flex-basis: 300px for flex-shrink */
+  /* flex-shrink: 2; */
+}
+
+.flex-box {
+  /* flex container of size auto (height) x 100vw (width) */
+  display: flex;
+  height: auto;
+  width: 100%;
+  /* flex-direction: column; */
+  flex-direction: row;
+  /* align-items: flex-start; */
+  /* justify-content: space-evenly; */
+  /* margin: 0 auto; */
+  /* flex-wrap: wrap; */
+  row-gap: 10px;
+  column-gap:10px;
+  background-color: white;
+  font-size: 1.25vw;
+}
+
+  #text-area-header {
+    color: red;
+    background-color: white;
+    border-top: 3px solid black;
+    border-bottom: 5px double black;
+    padding: 3vh 3vw;
+    margin: 0;
   }
 
-  .inter-700 {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+  #text-area-content {
+    color: red;
+    background-color: white;
+    /* border-top: 3px solid black; */
+    border-bottom: 5px double black;
+    padding: 3vh 3vw;
+    margin: 0;
+  }
+
+  #text-area-footer {
+    color: red;
+    background-color: white;
+    border-bottom: 3px solid black;
+    /* border-bottom: 5px double black; */
+    padding: 3vh 3vw;
+    margin: 0;
+  }
+
+  #text-area-header:hover {
+    color: white;
+    background-color: red;
+    border-top: 3px solid black;
+    border-bottom: 5px double black;
+    padding: 3vh 3vw;
+    margin: 0.75em 0;
+  }
+
+  #text-area-content:hover {
+    color: white;
+    background-color: red;
+    /* border-top: 3px solid black; */
+    border-bottom: 5px double black;
+    padding: 3vh 3vw;
+    margin: 0.75em 0;
+  }
+
+  #text-area-footer:hover {
+    color: white;
+    background-color: red;
+    border-bottom: 3px solid black;
+    /* border-bottom: 5px double black; */
+    padding: 3vh 3vw;
+    margin: 0.75em 0;
   }
