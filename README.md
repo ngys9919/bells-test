@@ -43,6 +43,7 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 : sctp-salary.jpg
 : home.png
 : index.png
+: button-LearnMore.png
 
 * MEDIA Folder (multimedia)
 : \<empty\>
@@ -115,6 +116,10 @@ The website is deployed using [GitHub Pages][4] so that it is available via a pu
 > This project work, part of **Module 2: UX (User Experience) Design and User Interface Theory**, 
 > is an individual assessment done by Candidate’s Name (as in NRIC): **Ng Yew Seng** (Candidate’s NRIC: **S XXXX 3 5 3 / F**), 
 > a trainee under the **(SCTP) Full Stack Developer** course, organized by **Bells Institute of Higher Learning**. 
+
+>>
+>> © Copyright 2024\
+>> Coder: ***Ng Yew Seng***
 
 <!-- Heading level 2 -->
 ## Technologies Used

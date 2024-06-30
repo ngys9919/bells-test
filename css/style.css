@@ -12,6 +12,23 @@ body {
     height: 30px;
 }
 
+
+#image {
+  /* specify picture size */
+  width: 50px;
+  height: 50px;
+  /* centered picture */
+  display: block;
+  margin: 0 auto;
+  /* provide perimeter gaps */
+  padding: 2px 2px;
+}
+
+#img-button {
+  width: 90px;
+  height: 30px;
+}
+
 #spacer {
   margin: 10px 10px;
   padding: 10px 10px;
@@ -25,7 +42,7 @@ body {
 
 /* bootstrap overwrites */
 .bg-body-tertiary {
-    background-color: lightblue !important; /* overrides specificity by adding "!important" to the end of the declaration */
+    background-color: blueviolet !important; /* overrides specificity by adding "!important" to the end of the declaration */
 }
 
   /* Bootstrap Breakpoints
@@ -35,40 +52,55 @@ body {
     Medium	            md	    ≥768px
     Large	            lg	    ≥992px
     Extra large	        xl	    ≥1200px
-    Extra extra large	xxl	    ≥1400px
+    Extra extra large	xxl	    ≥1400px, max=1580px
 
   */
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 576px) {
     body {
-        background-color: red;
+        background-color: lightgrey;
     }
     .parent {
-      background-color: red;
+      background-color: lightgrey;
       flex-direction: column;
+      font-size: 5vw;
+    }
+    .child:hover {
+      background-color: lightgrey;
+      color: red;
       font-size: 5vw;
     }
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 576px) {
     body {
-        background-color: green;
+        background-color: lawngreen;
     }
     .parent {
-      background-color: green;
+      background-color: lawngreen;
       flex-direction: column;
+      font-size: 4vw;
+    }
+    .child:hover {
+      background-color: lawngreen;
+      color: red;
       font-size: 4vw;
     }
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     body {
-        background-color: yellow;
+        background-color: cyan;
     }
     .parent {
-      background-color: yellow;
+      background-color: cyan;
       flex-direction: row;
+      font-size: 3vw;
+    }
+    .child:hover {
+      background-color: cyan;
+      color: red;
       font-size: 3vw;
     }
   }
@@ -81,6 +113,11 @@ body {
       background-color: aquamarine;
       flex-direction: row;
       font-size: 2vw;
+    }
+    .child:hover {
+      background-color: aquamarine;
+      color: red;
+      font-size: 2vw;
     }    
   }
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -91,6 +128,11 @@ body {
     .parent {
       background-color: skyblue;
       flex-direction: row;
+      font-size: 1.5vw;
+    }
+    .child:hover {
+      background-color: skyblue;
+      color: red;
       font-size: 1.5vw;
     }    
   }
@@ -103,6 +145,11 @@ body {
     .parent {
       background-color: white;
       flex-direction: row;
+      font-size: 1.25vw;
+    }
+    .child:hover {
+      background-color: white;
+      color: red;
       font-size: 1.25vw;
     }    
   }

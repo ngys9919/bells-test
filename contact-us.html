@@ -15,27 +15,35 @@
         h1 {color: black; font-family: "Times New Roman", Times, sans-serif;}
 
         h1 ~ ul {
-            color: red;
-            background-color: yellow;
+            color: black;
             line-height: 1.5;
             list-style-type: square;
             padding: 8px 20px;
+            margin: 0.75em 0.75em;
+            /* padding: 0.75em 0.75em; */
         }
 
+        li:hover {color: red; background-color: yellow;}
+
+        ul {border-color: blueviolet; border-width: 5px; border-style: dotted;} 
+
         #contact-text {
-            color: red;
-            background-color: yellow;
-            border-color: black;
+            text-align: left;
+            color: black;
+            border-color: blueviolet;
             border-width: 5px;
             border-style: dotted;
             line-height: 1.5;
-            margin: 0.75em 0;
-        } 
+            margin: 0.75em 0.75em;
+            padding: 0.75em 0.75em;
+        }
+        
+        #contact-text:hover {color: red; background-color: yellow;}
     </style>
 </head>
 <body>
     <div>
-        <h1>Why sign-up for SCTP Course?</h1>
+        <h1>Why sign-up for <span style="font-variant: small-caps; font-size: 7vh; color: red;">SCTP Course</span>?</h1>
             <ul>
             <li>
                 Up to 95% subsidised course. Eligible
@@ -57,7 +65,11 @@
                 <wbr>and job placement services.
             </li>
             </ul>
-        <h1>SCTP Course Consultant: Sheikh</h1>
+        
+        <div id="spacer">
+        </div>
+
+        <h1>SCTP Course Consultant: <span style="font-variant: small-caps; font-size: 12vh; color: red;">Sheikh</span></h1>
         <p id="contact-text">
             Call <strong><em>6473 3936</em></strong> or
             <br>
@@ -69,11 +81,10 @@
         </p>
     </div>
 
-    <div style="text-align: right;">
-        <a href="index.html">Return to home page</a>
-    </div>
+    <!-- <div style="text-align: right;"><a href="index.html">Return to home page</a></div> -->
     <!-- <a href="index.html" style="height: 50px;"><img src="img/home.png" alt="Goto Home">Return to home page</a> -->
-    <a href="index.html" class="btn btn-primary">Home</a>
+    <a href="index.html"><img src="img/home.png" alt="Goto Home" class="img-fluid" id="image"><center>Goto Home</center></a>
+    <!-- <a href="index.html" class="btn btn-primary">Home</a> -->
     
 </body>
 </html>
