@@ -48,6 +48,9 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 : phone.png
 : mobile.png
 : email.png
+: phone-app.png
+: whatsapp-app.png
+: outlook-app.png
 
 * RES Folder (resources)
 : bells.ico

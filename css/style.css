@@ -67,7 +67,8 @@ body {
       font-size: 5vw;
     }
     .child:hover {
-      background-color: lightgrey;
+      /* background-color: lightgrey; */
+      background-color: yellow;
       color: red;
       font-size: 5vw;
     }
@@ -83,7 +84,8 @@ body {
       font-size: 4vw;
     }
     .child:hover {
-      background-color: lawngreen;
+      /* background-color: lawngreen; */
+      background-color: yellow;
       color: red;
       font-size: 4vw;
     }
@@ -99,7 +101,8 @@ body {
       font-size: 3vw;
     }
     .child:hover {
-      background-color: cyan;
+      /* background-color: cyan; */
+      background-color: yellow;
       color: red;
       font-size: 3vw;
     }
@@ -115,7 +118,8 @@ body {
       font-size: 2vw;
     }
     .child:hover {
-      background-color: aquamarine;
+      /* background-color: aquamarine; */
+      background-color: yellow;
       color: red;
       font-size: 2vw;
     }    
@@ -131,7 +135,8 @@ body {
       font-size: 1.5vw;
     }
     .child:hover {
-      background-color: skyblue;
+      /* background-color: skyblue; */
+      background-color: yellow;
       color: red;
       font-size: 1.5vw;
     }    
@@ -148,7 +153,8 @@ body {
       font-size: 1.25vw;
     }
     .child:hover {
-      background-color: white;
+      /* background-color: white; */
+      background-color: yellow;
       color: red;
       font-size: 1.25vw;
     }    
