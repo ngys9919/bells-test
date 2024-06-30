@@ -48,6 +48,9 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 : mobile.png
 : email.png
 
+* RES Folder (resources)
+: bells.ico
+
 * MEDIA Folder (multimedia)
 : \<empty\>
 
