@@ -39,11 +39,14 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 : datascience.jpg
 : fullstack.jpg
 : blockchain.jpg
-: _today-coder_tomorrow.jpg
+: coder.jpg
 : sctp-salary.jpg
 : home.png
 : index.png
 : button-LearnMore.png
+: phone.png
+: mobile.png
+: email.png
 
 * MEDIA Folder (multimedia)
 : \<empty\>
