@@ -99,7 +99,9 @@
   /* background-color: white; */
   color: black;
   border: 1px solid black;
-  flex-basis: 100px;  
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+  flex-basis: 220px;  
 }
 
 .child:hover {

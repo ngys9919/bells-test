@@ -34,6 +34,7 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 
 * IMG Folder (images)
 : bells_logo.jpg
+: bellstech_logo.png
 : sctp-series.jpg
 : cybersecurity.jpg
 : datascience.jpg
