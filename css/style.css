@@ -64,13 +64,16 @@ body {
     .parent {
       background-color: lightgrey;
       flex-direction: column;
-      font-size: 5vw;
+      font-size: 4vw;
     }
     .child:hover {
       /* background-color: lightgrey; */
       background-color: yellow;
       color: red;
-      font-size: 5vw;
+      font-size: 4vw;
+    }
+    #point-image {
+      width: 25%;
     }
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -81,13 +84,16 @@ body {
     .parent {
       background-color: lawngreen;
       flex-direction: column;
-      font-size: 4vw;
+      font-size: 3vw;
     }
     .child:hover {
       /* background-color: lawngreen; */
       background-color: yellow;
       color: red;
-      font-size: 4vw;
+      font-size: 3vw;
+    }
+    #point-image {
+      width: 35%;
     }
   }
   /* Medium devices (landscape tablets, 768px and up) */
@@ -106,6 +112,9 @@ body {
       color: red;
       font-size: 3vw;
     }
+    #point-image {
+      width: 60%;
+    }
   }
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
@@ -122,6 +131,9 @@ body {
       background-color: yellow;
       color: red;
       font-size: 2vw;
+    }
+    #point-image {
+      width: 45%;
     }    
   }
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -139,6 +151,9 @@ body {
       background-color: yellow;
       color: red;
       font-size: 1.5vw;
+    }
+    #point-image {
+      width: 40%;
     }    
   }
   /* Extra extra large devices (large tv screens, 1400px and up) */
@@ -157,5 +172,8 @@ body {
       background-color: yellow;
       color: red;
       font-size: 1.25vw;
+    }
+    #point-image {
+      width: 35%;
     }    
   }

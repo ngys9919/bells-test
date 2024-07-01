@@ -96,7 +96,7 @@
 }
 
 .child {
-  /* each flex item of 100px (width) */
+  /* each flex item of 220px (width) */
   /* background-color: white; */
   color: black;
   border: 1px solid black;
@@ -106,10 +106,9 @@
 }
 
 .child:hover {
-  /* background-color: yellow; */
-  /* use flex-basis: 100px for flex-grow */
+  /* use flex-basis: 100px; small width size then can see the effect of flex-grow */
   flex-grow: 2;
-  /* use flex-basis: 300px for flex-shrink */
+  /* use flex-basis: 300px; large width size then can see the effect of flex-shrink */
   /* flex-shrink: 2; */
   color: red;
   background-color: yellow;
@@ -118,28 +117,70 @@
 
 #point-image {
   display: block;
-  width: 240px;
-  height: 320px;
+  /* image of fixed size */
+  /* width: 240px; */
+  /* height: 320px; */
+  /* image of scaling size */
+  /* Images and video can easily be made to scale up or */
+  /* down using CSS rules to assign their width property a percentage */
+  /* value, and by specifying the auto keyword to their height property. */
+  width: 35%;
+  height: auto;
 }
 
 #point-image:hover {
-  display: none;
+  /* Hide Content */
+
+  /* Method 1 using display property */
+  /* display: none; content is entirely remove from the page */
+  /* flow, no page space reserved, and invisible to screen readers. */
+  /* display: none; */
+
+  /* Method 2 using visibility property */
+  /* visibility: hidden; content remains in the page flow, page space is */
+  /* reserved, but content is invisible to users and screen readers. */
   /* visibility: hidden; */
+
+  /* Method 3 using opacity property */
+  /* opacity: value; content remains in the page flow, page space is reserved, */
+  /* the content is visually hidden (for opacity: 0;) but is visible to screen readers. */
+  opacity: 0.5;
+
+  /* Handle Overflow */
+  /* CSS provides many controls to specify the precise size and position of content boxes. */
+  /* There is no gurantee that the content will fit neatly within their boundaries */
+  /* in all circumstances. The text may then overflow outside the box boundaries. */
+  /* Overflowing content is generally visible by default, but the CSS */
+  /* overflow property can specify alternative handling behaviors */
+  /* using the hidden or scroll keywords. */
+
+  /* With overflow: visible; the overflowing content will be visible (default) */
+  /* overflow: visible; */
+
+  /* With overflow: hidden; the overflowing content will be invisible. */
   /* overflow: hidden; */
-  /* opacity: 0; */
+
+  /* With overflow: scroll; the browser will provide horizontal and vertical scrollbars that the */
+  /* user can use to view the overflowing content. */
+  /* overflow: scroll; */
+
+  /* overflow-x: value; refers horizontal scrollbar provision */
+  /* overflow-y: value; refers vertical scrollbar provision */
+
+  /* text-overflow: clip; refers to truncating the text characters without regard to word breaks */
+  /* text-overflow: ellipsis; refers to indicating of ... ellipsis which replaces the final truncated letters */
+
+  /* white-space: normal; refers to wrapping the text content to the next line within a block-level content box at word breaks (default) */
+  /* white-space: nowrap; refers to disabling text wrapping of the text content */
 }
 
+/* Alternative approach for display of flex-box using text-area concept */
+/*
 .flex-box {
-  /* flex container of size auto (height) x 100vw (width) */
   display: flex;
   height: auto;
   width: 100%;
-  /* flex-direction: column; */
   flex-direction: row;
-  /* align-items: flex-start; */
-  /* justify-content: space-evenly; */
-  /* margin: 0 auto; */
-  /* flex-wrap: wrap; */
   row-gap: 10px;
   column-gap:10px;
   background-color: white;
@@ -158,7 +199,6 @@
   #text-area-content {
     color: red;
     background-color: white;
-    /* border-top: 3px solid black; */
     border-bottom: 5px double black;
     padding: 3vh 3vw;
     margin: 0;
@@ -168,7 +208,6 @@
     color: red;
     background-color: white;
     border-bottom: 3px solid black;
-    /* border-bottom: 5px double black; */
     padding: 3vh 3vw;
     margin: 0;
   }
@@ -185,7 +224,6 @@
   #text-area-content:hover {
     color: white;
     background-color: red;
-    /* border-top: 3px solid black; */
     border-bottom: 5px double black;
     padding: 3vh 3vw;
     margin: 0.75em 0;
@@ -195,7 +233,7 @@
     color: white;
     background-color: red;
     border-bottom: 3px solid black;
-    /* border-bottom: 5px double black; */
     padding: 3vh 3vw;
     margin: 0.75em 0;
   }
+*/
