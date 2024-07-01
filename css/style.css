@@ -84,16 +84,16 @@ body {
     .parent {
       background-color: lawngreen;
       flex-direction: column;
-      font-size: 3vw;
+      font-size: 4vw;
     }
     .child:hover {
       /* background-color: lawngreen; */
       background-color: yellow;
       color: red;
-      font-size: 3vw;
+      font-size: 4vw;
     }
     #point-image {
-      width: 35%;
+      width: 25%;
     }
   }
   /* Medium devices (landscape tablets, 768px and up) */
