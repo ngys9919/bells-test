@@ -115,7 +115,7 @@
   font-size: 3vw;
 }
 
-#point-image {
+.point-image {
   display: block;
   /* image of fixed size */
   /* width: 240px; */
@@ -128,7 +128,7 @@
   height: auto;
 }
 
-#point-image:hover {
+.point-image:hover {
   /* Hide Content */
 
   /* Method 1 using display property */

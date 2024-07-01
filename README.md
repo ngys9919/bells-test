@@ -23,7 +23,7 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 >>> About page
 : about.html
 
->>> Contect Us page
+>>> Contact Us page
 : contact-us.html
 
 * CSS Folder (cascading style sheets)
@@ -45,14 +45,14 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 : home.png
 : index.png
 : button-LearnMore.png
-: phone-app.png
-: whatsapp-app.png
-: outlook-app.png
 : one.png
 : two.png
 : three.png
 : four.png
 : five.png
+: telephone-blend.png
+: whatsapp-blend.png
+: email-blend.png
 
 * RES Folder (resources)
 : bells.ico
@@ -63,7 +63,7 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 * JS Folder (javascript)
 : \<empty\>
 
-* UNUSE Folder (unused)
+* UNUSE Folder (unused, obsolete)
 : phone.png
 : mobile.png
 : email.png
@@ -71,6 +71,10 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 : seven.png
 : eight.png
 : nine.png
+: phone-app.png
+: whatsapp-app.png
+: outlook-app.png
+: index-bells.png
 
 <!-- Heading level 1 -->
 # Project Guide
@@ -139,8 +143,10 @@ The website is deployed using [GitHub Pages][4] so that it is available via a pu
 > a trainee under the **(SCTP) Full Stack Developer** course, organized by **Bells Institute of Higher Learning**. 
 
 >>
+>> Coder: ***Ng Yew Seng***\
 >> © Copyright 2024\
->> Coder: ***Ng Yew Seng***
+>> Bells Institute of Higher Learning
+
 
 <!-- Heading level 2 -->
 ## Technologies Used

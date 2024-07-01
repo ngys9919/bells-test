@@ -3,32 +3,31 @@
   <head>
     <!-- base directory -->
     <!-- <base href="http://localhost/source/bells-test/"> -->
-    <!-- <base href="E:/source/bells-test"> -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The application of this project caters to the needs of a specific target user group, the mid-career changers,
     who are looking for information on SCTP Courses at BELLSTECH, a tech business unit of Bells Institute of Higher Learning.">
     <title>Educational School: BELLSTECH</title>
     <!-- icon file -->
     <link rel="shortcut icon" href="res/bells_icon.ico">
     <!-- css reset -->
-    <!-- <link href="css/reset.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="css/reset.css" rel="stylesheet" type="text/css"> -->
     <!-- insert any library css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
-    />
+    >
     <!-- insert your own template files -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- navbar -->
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/bellstech_logo.png" class="img-fluid" id="logo"/>
+          <a class="navbar-brand" href="#"><img src="img/bellstech_logo.png" alt="BELLSTECH logo" class="img-fluid" id="logo">
           <!-- <p>BELLSTECH</p> -->
           </a>
           <button
@@ -118,7 +117,7 @@
         </button>
       </div>
       
-      <div id="spacer">
+      <div class="spacer">
       </div>
 
       <section>
@@ -129,17 +128,17 @@
               <div style="display: inline; position: absolute; left: 0">
                 <span class="badge text-bg-secondary">BellsTech#1</span>
               </div>
-              <img src="img/coder.jpg" alt="coder.jpg" class="img-fluid"/>
+              <img src="img/coder.jpg" alt="coder.jpg" class="img-fluid">
             </div>
             <div class="col-12 col-md-6">
               <h1>#BellsTech Offerings for Tech Prospects</h1>
               <h4>
                 Hi! Do you want to kick-start a tech adventure with our software development bootcamp?
-                Here's to new beginnings and tech innovations. Click the button <img src="img/button-LearnMore.png" alt="Learn More button" class="img-fluid" id="img-button"/>
+                Here's to new beginnings and tech innovations. Click the button <img src="img/button-LearnMore.png" alt="Learn More button" class="img-fluid" id="img-button">
                 to find out more information on our upcoming SCTP intake and read more about the study experiences
                 of our past graduates and their testimonial!
               </h4>
-              <p>
+              <div>
                 <ul>
                   <li>
                     Offers pathways to high-growth IT careers
@@ -154,9 +153,9 @@
                     Conducts rigorous aptitude test for enrolment
                   </li>
                 </ul>
-              </p>
+              </div>
               <button class="btn btn-primary">Learn More</button>
-              <div id="spacer">
+              <div class="spacer">
               </div>        
             </div>
           </div>
@@ -172,16 +171,20 @@
               </h4>
 
               <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <!-- <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked> -->
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
                 <label class="btn btn-outline-primary" for="btnradio1">(SCTP) Cyber-Security</label>
               
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <!-- <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off"> -->
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
                 <label class="btn btn-outline-primary" for="btnradio2">(SCTP) Data-Science</label>
               
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <!-- <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off"> -->
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
                 <label class="btn btn-outline-primary" for="btnradio3">(SCTP) Full-Stack</label>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <!-- <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off"> -->
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4">
                 <label class="btn btn-outline-primary" for="btnradio4">(SCTP) Block-Chain</label>
               </div>
 
@@ -191,25 +194,14 @@
                   <form>
                     <div class="mb-3">
                       <br>
-                      <label for="exampleInputEmail1" class="form-label"
-                        >Email address</label
-                      >
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                      />
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                       <div id="emailHelp" class="form-text">
                         We'll never share your email with anyone else.
                       </div>
                     </div>
                     <div class="mb-3 form-check">
-                      <input
-                        type="checkbox"
-                        class="form-check-input"
-                        id="exampleCheck1"
-                      />
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">
                         Please put me onto your mailing list.
                       </label>
@@ -217,7 +209,7 @@
                     <button type="submit" class="btn btn-primary">
                       Submit
                     </button>
-                    <div id="spacer">
+                    <div class="spacer">
                     </div>              
                   </form>
                 </div>
@@ -228,7 +220,7 @@
               <div style="display: inline; position: absolute; right: 0">
                 <span class="badge text-bg-secondary">BellsTech#2</span>
               </div>
-              <img src="img/sctp-salary.jpg" alt="sctp-salary.jpg"class="img-fluid" />
+              <img src="img/sctp-salary.jpg" alt="sctp-salary.jpg" class="img-fluid">
             </div>
           </div>
         </div>
@@ -239,14 +231,10 @@
         <div class="row">
           <div class="col-6 col-md-4 col-lg-3">
             <div class="card">
-              <img
-                src="img/cybersecurity.jpg"
-                class="card-img-top"
-                alt="(SCTP) Cyber-Security"
-              />
-              <div class="card-body">
+              <img src="img/cybersecurity.jpg" class="card-img-top" alt="(SCTP) Cyber-Security">
+              <div class="card-body"> 
                 <h5 class="card-title">Cyber-Security Professional</h5>
-                <p class="card-text">
+                <div class="card-text">
                   A <strong>cybersecurity professional</strong> is someone who specializes in protecting computer systems, networks, and data from unauthorized access, theft, or damage.
                   <p>Their main responsibilities include:</p>
                   <ol>
@@ -268,21 +256,17 @@
                   </ol>
                   <p>Cybersecurity professionals can work in various roles, such as penetration testers, security engineers, incident responders, and security consultants. They play a crucial role in protecting sensitive information and maintaining the integrity of digital infrastructure.</p>
                   <p>Are you interested in pursuing a career in cybersecurity, or are you looking for information about the course?</p>
-                </p>
+                </div>
                 <a href="https://bells.sg/courses/sctp-cybersecurity-professional/" class="btn btn-primary">Goto Bells' (SCTP) Cyber-Security Course Details</a>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="card">
-              <img
-                src="img/datascience.jpg"
-                class="card-img-top"
-                alt="(SCTP) Data-Science"
-              />
+              <img src="img/datascience.jpg" class="card-img-top" alt="(SCTP) Data-Science">
               <div class="card-body">
                 <h5 class="card-title">Data-Science Specialist</h5>
-                <p class="card-text">
+                <div class="card-text">
                   A <strong>data science specialist</strong> is a professional who uses analytical, statistical, and programming skills to collect, analyze, and interpret large amounts of data. Their main goal is to extract valuable insights that can help organizations make informed decisions.
                   <p>Here are some key responsibilities of a data science specialist:</p>
                   <ol>
@@ -304,21 +288,17 @@
                   </ol>
                   <p>Data science specialists often work with tools and languages such as Python, R, SQL, and machine learning frameworks. They play a crucial role in fields like finance, healthcare, marketing, and technology, where data-driven decisions are essential.</p>
                   <p>Are you interested in learning more about the skills needed to become a data science specialist, or perhaps you would like to find out more about the course?</p>
-                </p>
+                </div>
                 <a href="https://bells.sg/courses/sctp-data-science-professional/" class="btn btn-primary">Goto Bells' (SCTP) Data-Science Course Details</a>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="card">
-              <img
-                src="img/fullstack.jpg"
-                class="card-img-top"
-                alt="(SCTP) Full-Stack"
-              />
+              <img src="img/fullstack.jpg" class="card-img-top" alt="(SCTP) Full-Stack">
               <div class="card-body">
                 <h5 class="card-title">Full-Stack Developer</h5>
-                <p class="card-text">
+                <div class="card-text">
                   A <strong>full-stack developer</strong> is a professional who is skilled in both front-end and back-end development of web applications. This means they can handle everything from designing the user interface to managing the server and database.
                   <p>Here are some key aspects of a full-stack developer's role:</p>
                   <ol>
@@ -343,21 +323,17 @@
                   </ol>
                   <p>Full-stack developers are highly versatile and can work on various aspects of a project, making them valuable assets to any development team. They often collaborate with other developers, designers, and stakeholders to deliver comprehensive solutions.</p>
                   <p>Are you interested in becoming a full-stack developer, or do you have questions about the course that you need help with?</p>
-                </p>
+                </div>
                 <a href="https://bells.sg/courses/sctp-full-stack-developer/" class="btn btn-primary">Goto Bells' (SCTP) Full-Stack Course Details</a>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
             <div class="card">
-              <img
-                src="img/blockchain.jpg"
-                class="card-img-top"
-                alt="(SCTP) Block-Chain"
-              />
+              <img src="img/blockchain.jpg" class="card-img-top" alt="(SCTP) Block-Chain">
               <div class="card-body">
                 <h5 class="card-title">Blockchain Developer</h5>
-                <p class="card-text">
+                <div class="card-text">
                   A <strong>blockchain developer</strong> is a software developer who specializes in creating and managing blockchain technology.
                   <p>Here are some key aspects of their role:</p>
                   <ol>
@@ -379,7 +355,7 @@
                   </ol>
                   <p>Blockchain developers often work with programming languages like Solidity (for Ethereum), JavaScript, Python, and C++. They also need to be familiar with blockchain platforms such as Ethereum, Hyperledger, and Bitcoin.</p>
                   <p>Are you interested in learning more about blockchain development, or do you need to know more about the course?</p>
-                </p>
+                </div>
                 <a href="https://bells.sg/courses/sctp-blockchain-developer/" class="btn btn-primary">Goto Bells' (SCTP) Block-Chain Course Details</a>
               </div>
             </div>
