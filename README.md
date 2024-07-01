@@ -45,12 +45,14 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 : home.png
 : index.png
 : button-LearnMore.png
-: phone.png
-: mobile.png
-: email.png
 : phone-app.png
 : whatsapp-app.png
 : outlook-app.png
+: one.png
+: two.png
+: three.png
+: four.png
+: five.png
 
 * RES Folder (resources)
 : bells.ico
@@ -60,6 +62,15 @@ Module 2: **UX (User Experience) Design and User Interface Theory**
 
 * JS Folder (javascript)
 : \<empty\>
+
+* UNUSE Folder (unused)
+: phone.png
+: mobile.png
+: email.png
+: six.png
+: seven.png
+: eight.png
+: nine.png
 
 <!-- Heading level 1 -->
 # Project Guide

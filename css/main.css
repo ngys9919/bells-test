@@ -116,6 +116,19 @@
   font-size: 3vw;
 }
 
+#point-image {
+  display: block;
+  width: 240px;
+  height: 320px;
+}
+
+#point-image:hover {
+  display: none;
+  /* visibility: hidden; */
+  /* overflow: hidden; */
+  /* opacity: 0; */
+}
+
 .flex-box {
   /* flex container of size auto (height) x 100vw (width) */
   display: flex;
