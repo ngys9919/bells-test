@@ -88,7 +88,7 @@ For the purpose of the portfolio project, a landing page is created for the foll
 
 This project is about *SkillsFuture Career Transition Programme (SCTP)* at **BELLSTECH**. 
 
-The application of this project caters to the needs of a specific target user group, the mid-career changers,
+The application of this project caters to the needs of a specific target user group, the mid-career switchers,
 who are looking for information on SCTP Courses at BELLSTECH, a tech business unit of [Bells Institute of Higher Learning][1].
 
 The website provides an one-stop entry point to the SCTP Courses available, namely:
@@ -116,7 +116,7 @@ The web development is done using [Visual Studio Code][3] with responsive design
 | large tv screens | Extra extra large | xxl | ≥1400px, max:1580px |
 
 
-This simple website has a Bells logo and navigational bar with Home, About and Contact Us links in the landing page.\
+This simple website has a BellsTech logo and navigational bar with Home, About and Contact Us links in the landing page.\
 This provides an inner site navigation that allows the user to view the different pages in the site.\
 It also uses navbar, carousel, container, cards, form, badge, button and radio buttons from CSS Bootstrap.
 
@@ -135,6 +135,102 @@ The website is deployed using [GitHub Pages][4] so that it is available via a pu
 
 - [Source Codes Github Link](https://www.github.com/ngys9919/bells-test "My source-codes!")
 : Click the hyperlink <https://www.github.com/ngys9919/bells-test>
+
+<!-- Heading level 2 -->
+## Features
+
+<!-- Heading level 3 -->
+### Existing Features (initial phase with module 2 knowledge (html/css))
+The user interface is provided by CSS Bootstrap framework. The special font is using Google Font library. The content is done up with HTML markup language whilst the style for the website is beautified with CSS stylesheets.
+
+Home page:
+1. Logo - to identify the brand of the organization via its logo image
+2. Navigation Bars - to provide site navigation with tabs like About and Contact Us
+3. Carousel Slides - to showcase slides on the SCTP programme and its courses
+4. Badges - to do sale pitch for BellsTech on two points: offerings and contact
+5. Cards - to explain in details the tech role and hyperlink to course details in Bells' website
+6. Radio Button Group - to select the interested course (choose 1 out of 4 SCTP courses)
+7. Email Input Form - to enter the email address for return reply
+8. Check Box - to register for inclusion into mailing list
+
+About page:
+1. Flexbox - to list 5 points for about SCTP advantages
+2. CSS Box - to present information about BELLSTECH
+3. Home icon - to return to Home page
+
+Contact Us page:
+1. Bullet List - to list 5 points why sign-up
+2. Contact Box - to name course consultant and his/her contacts
+3. Home icon - to return to Home page
+
+<!-- Heading level 3 -->
+### New Features (advanced phase with module 3 knowledge (javascript))
+The functionality for buttons clicked (Learn More button and Submit button) and radio button selected (for selection on one of the four SCTP courses) is not yet implemented. This requires logic that could only be done with front-end development.T 
+
+1. Learn More button - to further provide trainees' review on the SCTP course and more course information on the next intake.
+2. Submit button - to capture the radio button selection for the SCTP course selected and send email to the entered email address with course material.
+   
+<!-- Heading level 3 -->
+### Future Implementation
+The web design could expand to include new SCTP Courses like Business Digitalisation Specialist and Digital Marketing and AI Integration offered by Bells. Also, it could turn into an SCTP Infohub by including all the SCTP Courses (for example, SCTP AI & Cloud Services, SCTP Data Centre Professionals, SCTP Facilities Operations Management offered by SP PACE Academy; SCTP Data Analytics, SCTP Cybersecurity, Governance, & Compliance, SCTP Software Development & UX Design, SCTP Cloud & IT Infrastructure, SCTP Digital Marketing & E-Commerce, SCTP Project Management & Business Analysis offered by NTUC LearningHub; etc) that are availble in Singapore by different training providers (not just restricted to BellsTech only).
+
+<!-- Heading level 2 -->
+## Testing
+1. Using HTML Validator   
+   The html files are checked with W3C Markup Validation Service for any errors through Validate by File Upload method.
+
+   https://validator.w3.org/#validate_by_upload
+
+2. Using CSS Validator   
+   The css files are checked with W3C CSS Validation Service for any errors via By file upload method.
+
+   https://jigsaw.w3.org/css-validator/#validate_by_upload
+
+3. Using Chrome Inspector (F12 function key)   
+   3.1 The website is checked for responsiveness with Chrome browser for screen sizes through Toggle device toolbar (Ctrl + Shift + M).   
+   3.2 The website is also checked with re-sizing the browser windows to see the effect of media query on screen dimensions. 
+
+4. Actual Usage   
+   4.1 The url is activated in real use-case for laptop (Acer notebook) via browsers (Google Chrome and Microsoft Edge).   
+   4.2 The url is activated in real use-cases (portrait and auto-rotate) for mobile (Samsung Galaxy smartphone) via browser and short-cut.
+
+<!-- Heading level 2 -->
+## Credits
+
+### resource
+- The .ico file used for this website was converted from .png logo file with this site:
+
+  https://www.freeconvert.com/png-to-ico
+
+- The special font used in this site was obtained from:
+
+  https://fonts.google.com/
+
+### images
+- The photos used in this site were obtained from:
+
+  https://bells.sg/sctp/
+
+- The numerical pictures used in this site were obtained from:
+
+  https://thehappyprintable.com
+
+### icons
+- The icons used in this site were obtained from:
+
+  https://www.flaticon.com/free-icons/
+
+### content
+- The text for tech roles (displayed inside cards under index.html) were generated with Copilot:
+
+  https://copilot.microsoft.com/
+
+- The text for why sign-up (bullet-list under contact-us.html) and about Bells SCTP (5 points under about.html) were copied from :
+
+  presentation slides by Sherfeeq Razal
+
+### Acknowledgements
+Thanks to Bells for support!
 
 <!-- Heading level 2 -->
 ## About
