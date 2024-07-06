@@ -164,7 +164,7 @@ Contact Us page:
 3. Home icon - to return to Home page
 
 <!-- Heading level 3 -->
-### New Features (advanced phase with module 3 knowledge (javascript))
+### Incomplete Features (advanced phase with module 3 knowledge (javascript))
 The functionality for buttons clicked (Learn More button and Submit button) and radio button selected (for selection on one of the four SCTP courses) is not yet implemented. This requires logic that could only be done with front-end development.T 
 
 1. Learn More button - to further provide trainees' review on the SCTP course and more course information on the next intake.
